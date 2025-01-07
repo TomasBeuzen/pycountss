@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycountss"
-version = "0.1.0"
+version = "0.2.0"
 description = "Calculate word counts in a text file!"
 authors = ["Tomas Beuzen"]
 license = "MIT"
@@ -21,7 +21,9 @@ sphinx-rtd-theme = "^3.0.2"
 python-semantic-release = {version = "^9.15.2", python = "^3.12"}
 
 [tool.semantic_release]
-version_variable = "pyproject.toml:version"
+version_toml = [
+    "pyproject.toml:tool.poetry.version",
+]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
