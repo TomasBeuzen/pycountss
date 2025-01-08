@@ -1,5 +1,8 @@
 [tool.poetry]
-name = "pycountss"
+name = "pycounts312tb"
+packages = [
+    {include = "src/pycountss"}
+]
 version = "0.2.0"
 description = "Calculate word counts in a text file!"
 authors = ["Tomas Beuzen"]
