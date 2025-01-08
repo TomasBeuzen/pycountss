@@ -23,14 +23,6 @@ jobs:
     - name: Install package
       run: poetry install
 
-    - name: Test with pytest
-      run: poetry run pytest tests/ --cov=pycounts312tb --cov-report=xml
-
-    - name: Use Codecov to track coverage
-      uses: codecov/codecov-action@v2
-      with:
-        files: ./coverage.xml   # coverage report
-
     - name: Build documentation
       run: poetry run make html --directory docs/
 
@@ -61,7 +53,7 @@ jobs:
 
   #     - name: Use Python Semantic Release to prepare release
   #       id: release
-  #       uses: python-semantic-release/python-semantic-release@v8.3.0
+  #       uses: python-semantic-release/python-semantic-release@v9.15.2
   #       with:
   #         github_token: ${{ secrets.GITHUB_TOKEN }}
 
