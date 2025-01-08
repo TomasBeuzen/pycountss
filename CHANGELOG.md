@@ -1,6 +1,47 @@
 # CHANGELOG
 
 
+## v0.3.0 (2025-01-08)
+
+### Build System
+
+- Add CI workflow
+  ([`38a24c7`](https://github.com/TomasBeuzen/pycountss/commit/38a24c7c87a1fb85c4d059810b9c75b5d755797e))
+
+- Add CI workflow
+  ([`9a86c22`](https://github.com/TomasBeuzen/pycountss/commit/9a86c222534839c2019433e98075f3177a2b798c))
+
+- Add CI workflow
+  ([`2ef62e7`](https://github.com/TomasBeuzen/pycountss/commit/2ef62e77097e3bde4fdef23fdc59e5ebf3108eb6))
+
+- Add CI workflow
+  ([`2d96af5`](https://github.com/TomasBeuzen/pycountss/commit/2d96af531fb95840b8ff5d2d90303e4b649705e8))
+
+### Features
+
+- Add CI/CD workflow
+  ([`2901624`](https://github.com/TomasBeuzen/pycountss/commit/29016248db01764b3e0a5e50e89020eecb3429e2))
+
+- Add CI/CD workflow
+  ([`e8caab8`](https://github.com/TomasBeuzen/pycountss/commit/e8caab802f35c34827fa45c9c4629f5ffce81770))
+
+
+## v0.2.0 (2025-01-08)
+
+### Build System
+
+- Add PSR as dev dependency
+  ([`01c014b`](https://github.com/TomasBeuzen/pycountss/commit/01c014b9944591127a3a6e3b9fbf82d3e9880266))
+
+- Preparing for release v0.2.0
+  ([`4fca3f3`](https://github.com/TomasBeuzen/pycountss/commit/4fca3f3cf9904c0d4ee624d9cd481fc57217eab7))
+
+### Features
+
+- Add example data and datasets module
+  ([`b65608e`](https://github.com/TomasBeuzen/pycountss/commit/b65608e22e2df969ae880187523376201d903472))
+
+
 ## v0.1.0 (2025-01-08)
 
 ### Build System
